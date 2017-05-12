@@ -1,0 +1,169 @@
+/*导航开始*/
+.head-nav{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+.head-nav .navbar{
+	margin-bottom:0;
+}
+.head-nav .navbar-default{
+	background-color: #222;
+    border-color: #222;
+}
+.head-nav .navbar-brand{
+	padding:7px 0;
+}
+.head-nav .navbar-nav li a{
+	color:#9d9d9d;
+}
+.head-nav .navbar-nav li a:hover{
+	color:#fff;
+	background:#080808;
+}
+
+/*导航结束*/
+/*banner开始*/
+header{
+	margin-top:50px;
+}
+/*banner结束*/
+/*LayaFlash 引擎开始*/
+.LayaFlash{
+	width:100%;
+	background:#fbfaf7;
+}
+.LayaFlash h1{
+	font-size: 47px;
+	color:#0078d7;
+	margin-top:100px;
+}
+.LayaFlash p{
+	font-size:30px;
+	color:#666;
+	margin:28px 0;
+}
+.LayaFlash .marks img{
+	margin-top:120px;
+}
+.LayaFlash .laya-main>div{
+	margin:27px 0;
+}
+/*LayaFlash 引擎结束*/
+/*Layabox 优势开始 */
+.laya-adv{
+	padding:89px 0;
+}
+.laya-adv .laya-adv-left img{
+	margin-top:48px;
+}
+.laya-adv .laya-adv-right h1{
+	font-size:48px;
+	color:#8fc31f;
+	font-weight: 900;
+	margin-bottom:30px;
+}
+.laya-adv .laya-adv-right ul li{
+	overflow: hidden;
+	line-height: 50px;
+	margin:8px 0;
+}
+.laya-adv .laya-adv-right ul li img{
+	float:left;
+	margin-right: 10px;
+}
+@media(max-width: 768px){
+	.laya-adv{
+		padding:0;
+	}
+	.laya-adv .laya-adv-left img{
+		margin:0;
+	}
+}
+/*Layabox 优势结束*/
+/*Layabox产品家族开始*/
+.laya-famliy{
+	width:100%;
+	background:#0079d7;
+	padding:54px 0 78px;
+}
+.laya-famliy h1{
+	font-size: 48px;
+	color:#fff;
+	text-align:center;
+	margin-top:48px;
+}
+.laya-famliy .container .row>div{
+	margin:35px 0;
+}
+/*Layabox产品家族结束*/
+/*采用Layabox引擎的精彩游戏开始*/
+.laya-game{
+	padding:40px 0;
+}
+.laya-game .video{
+	width:374px;
+	margin:0 auto;
+}
+.laya-game h2{
+	font-size: 34px;
+	color:#2a2a2a;
+}
+.laya-game h2 a{
+	color:#2a2a2a;
+}
+.laya-game .game-right>div{
+	margin-bottom:10px;
+	text-align: center;
+}
+.laya-game .game-right>div a{
+	color:#2a2a2a;
+}
+/*采用Layabox引擎的精彩游戏结束*/
+/*合作伙伴开始*/
+.laya-partner{
+	width:100%;
+	background:#f4f4f4;
+	padding:40px 0;
+}
+.laya-partner .container h2{
+	font-size: 30px;
+	color:#2a2a2a;
+	margin-bottom: 30px;
+}
+.laya-partner .container .row>div{
+	margin-bottom:20px;
+}
+/*合作伙伴结束*/
+footer{
+	width:100%;
+	background: #3b3b3b;
+	padding:30px 0;
+}
+footer .foot-icon{
+	width:180px;
+	position: relative;
+}
+footer .foot-icon .wei{
+	width:180px;
+	position: absolute;
+	top:-155px; left:29px;
+	display: none;
+}
+footer .foot-icon a{
+	margin-left:18px;
+}
+footer .foot-icon a:hover{
+	text-decoration: none;
+}
+footer p{
+	color:#a1a3ab;
+	font-size: 11px;
+}
+footer p>a{
+	color:#a1a3ab;
+	font-size: 14px;
+	margin: 0 10px;
+}

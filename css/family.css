@@ -1,0 +1,170 @@
+/*导航开始*/
+.head-nav{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+.head-nav .navbar{
+	margin-bottom:0;
+}
+.head-nav .navbar-default{
+	background-color: #222;
+    border-color: #222;
+}
+.head-nav .navbar-brand{
+	padding:7px 0;
+}
+.head-nav .navbar-nav li a{
+	color:#9d9d9d;
+}
+.head-nav .navbar-nav li a:hover{
+	color:#fff;
+	background:#080808;
+}
+/*导航结束*/
+/*layaflash开始*/
+.layaflash{
+	width: 100%;
+	margin-top: 52px;
+	padding: 60px 0;
+	background: #8bc01f;
+	color: #fff;
+}
+.layaflash .row h1{
+	font-size: 48px;
+	margin: 7px 0 18px;
+}
+.layaflash .row h1 span{
+	display: inline-block;
+	width: 55px; height: 53px;
+	line-height: 53px;
+	border-radius: 3px;
+	font-weight: 900;
+	text-align: center;
+	background: #fff;
+	color: #8bc01f;
+}
+.layaflash .row h2{
+	font-size: 24px;
+	margin: 0 0 60px;
+}
+.layaflash .row p{
+	line-height: 30px;
+	margin-bottom: 16px;
+}
+.layaflash .row a{
+	display: inline-block;
+	width: 100px; height: 34px;
+	border-radius: 3px;
+	line-height: 34px;
+	background: #fff;
+	text-align: center;
+	color: #8bc01f;
+}
+/*layaflash结束*/
+/*Layaplayer开始*/
+.layaplayer{
+	width: 100%;
+	padding: 60px 0;
+	background: #3393df;
+	color: #fff;
+}
+.layaplayer h1{
+	font-size: 48px;
+	margin: 7px 0 18px;
+}
+.layaplayer h1 span{
+	display: inline-block;
+	font-size: 40px;
+	width: 42px; height: 44px;
+	line-height: 44px;
+	border-radius: 3px;
+	font-weight: 900;
+	text-align: center;
+	background: #fff;
+	color: #3393df;
+}
+.layaplayer .row h2{
+	font-size: 24px;
+}
+.layaplayer .row p{
+	line-height: 30px;
+}
+.layaplayer .row .laya_r{
+	padding-top: 150px;
+}
+/*Layaplayer结束*/
+/*main开始*/
+.main_t{
+	width: 100%;
+	padding: 80px 0;
+	color: #5d5d5d;
+}
+.main_t .row h1{
+	font-size: 42px;
+	color: #3393df;
+	margin: 7px 0 24px;
+}
+.main_t .row h1 span{
+	display: inline-block;
+	font-size: 36px;
+	width: 40px; height: 41px;
+	line-height: 41px;
+	border-radius: 3px;
+	font-weight: 900;
+	text-align: center;
+	background: #3393df;
+	color: #fff;
+}
+.main_t .row h2{
+	font-size: 18px;
+	margin: 0 0 38px;
+}
+.main_t .row h3{
+	font-size: 18px;
+	color: #3393df;
+	margin: 0 0 16px;
+}
+.main_t .row p{
+	line-height: 25px;
+	margin-bottom: 32px;
+	text-indent: 2em;
+}
+.main_t .row .main_img{
+	text-align: center;
+}
+.main_b{
+	background: #f7f7f7;
+}
+/*main结束*/
+footer{
+	width: 100%;
+	background: #3d3d3d;
+	padding: 30px 0;
+}
+footer .foot-icon{
+	width: 180px;
+	position: relative;
+}
+footer .foot-icon .wei{
+	position: absolute;
+	top: -155px; left: 30px;
+	display: none;
+}
+footer .foot-icon a{
+	margin-left: 18px;
+}
+footer .foot-icon a:hover{
+	text-decoration: none;
+}
+footer p{
+	font-size: 11px;
+	color: #a1a3ab;
+}
+footer p>a{
+	font-size: 14px;
+	color: #a1a3ab;
+	margin: 0 10px;
+}

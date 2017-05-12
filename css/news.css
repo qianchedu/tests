@@ -1,0 +1,140 @@
+/*导航开始*/
+.head-nav{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+.head-nav .navbar{
+	margin-bottom:0;
+}
+.head-nav .navbar-default{
+	background-color: #222;
+    border-color: #222;
+}
+.head-nav .navbar-brand{
+	padding:7px 0;
+}
+.head-nav .navbar-nav li a{
+	color:#9d9d9d;
+}
+.head-nav .navbar-nav li a:hover{
+	color:#fff;
+	background:#080808;
+}
+/*导航结束*/
+/*新闻动态开始*/
+.main_t{
+	margin-top: 50px;
+}
+.main_t h1{
+	font-size: 30px;
+	color: #ff6b08;
+	margin: 40px 0;
+}
+.main_t .row{
+	margin-bottom: 55px;
+}
+.main_t .row>div{
+	margin-bottom: 30px;
+	text-align: center;
+}
+.main_t .row>div>div{
+	width: 302px; height: 180px;
+	margin: 0 auto;
+	position: relative;
+}
+.main_t .row>div>div .mt_a{
+	/*display: none;*/
+	display: block;
+	width: 302px; height: 41px;
+	text-align: center;
+	line-height: 41px;
+	color: #fff;
+	background: rgba(102,102,102,0.8);
+	position: absolute;
+	left: 0;bottom: 0;
+}
+/*.main_t .row>div>div:hover a{
+	display: block;
+}*/
+.main_c{
+	margin-bottom: 30px;
+}
+.main_c .row{
+	margin-bottom: 40px;
+}
+.main_c .row .main_c_l{
+	width: 222px;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+.main_c .row .main_c_r h2{
+	font-size: 18px;
+	margin-top: 0;
+}
+.main_c .row .main_c_r h2 a{
+	color: #666;
+}
+.main_c .row .main_c_r h2 a:hover{
+	color: #ff6900;
+}
+.main_c .row .main_c_r p{
+	color: #2a2a2a;
+	line-height: 24px;
+}
+.main_c .row .main_c_r>a{
+	display: inline-block;
+	width: 98px; height: 32px;
+	color: #ff6900;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #ff6900;
+	border-radius: 20px;
+}
+.main_c .row .main_c_r>a:hover{
+	color: #fff;
+	background: #ff6900;
+}
+.main_b{
+	border-top: 1px dashed #d4d4d4;
+	margin: 0 auto;
+	padding: 35px 0 25px;
+}
+.main_b>div{
+	width: 322px;
+	margin: 0 auto;
+}
+/*新闻动态结束*/
+footer{
+	width: 100%;
+	background: #3d3d3d;
+	padding: 30px 0;
+}
+footer .foot-icon{
+	width: 180px;
+	position: relative;
+}
+footer .foot-icon .wei{
+	position: absolute;
+	top: -155px; left: 30px;
+	display: none;
+}
+footer .foot-icon a{
+	margin-left: 18px;
+}
+footer .foot-icon a:hover{
+	text-decoration: none;
+}
+footer p{
+	font-size: 11px;
+	color: #a1a3ab;
+}
+footer p>a{
+	font-size: 14px;
+	color: #a1a3ab;
+	margin: 0 10px;
+}

@@ -1,0 +1,166 @@
+/*导航开始*/
+.head-nav{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+.head-nav .navbar{
+	margin-bottom:0;
+}
+.head-nav .navbar-default{
+	background-color: #222;
+    border-color: #222;
+}
+.head-nav .navbar-brand{
+	padding:7px 0;
+}
+.head-nav .navbar-nav li a{
+	color:#9d9d9d;
+}
+.head-nav .navbar-nav li a:hover{
+	color:#fff;
+	background:#080808;
+}
+/*导航结束*/
+/*广告图开始*/
+.banner{
+	margin-top: 50px;
+}
+.banner img{
+	width: 100%;
+}
+/*广告图结束*/
+/*公司简介开始*/
+.about{
+	padding-bottom: 48px;
+}
+.about .row h1{
+	margin: 95px 0 30px;
+	font-size: 36px;
+	color: #2a2a2a;
+}
+.about .row h2{
+	line-height: 29px;
+	font-size: 21px;
+	color: #2a2a2a;
+	margin-bottom: 24px;
+}
+.about .row p{
+	line-height: 30px;
+	color: #2a2a2a;
+	margin-bottom: 10px;
+	text-indent: 2em;
+}
+.about .row .about_img{
+	margin-top: 235px;
+}
+/*公司简介结束*/
+/*人才招聘开始*/
+.job{
+	width: 100%;
+	padding: 95px 0 65px;
+	background: #8cc11f;
+}
+.job .row h1{
+	font-size: 36px;
+	color: #fff;
+	margin-bottom: 43px;
+}
+.job .row p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #fff;
+	margin-bottom: 10px;
+}
+.job .row .job_r{
+	margin-top: 102px;
+}
+.job .row .job_r button{
+	width: 220px; height: 49px;
+	font-size: 24px;
+	color: #8cc11f;
+	border: none;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+/*人才招聘结束*/
+/*as3引擎开发开始*/
+.main{
+	padding: 30px 0 50px;
+}
+.main .main_t{
+	padding: 50px 0 46px;
+	border-top: 1px solid #d2d2d2;
+	color: #2a2a2a;
+}
+.main .main_t h1{
+	font-size: 26px;
+	color: #8cc11f;
+	margin-bottom: 40px;
+}
+.main .main_t p{
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.main .main_t ol li{
+	margin-bottom: 17px;
+}
+.main .main_as{
+	border: none;
+}
+/*as3引擎开发结束*/
+/*联系方式开始*/
+.contact{
+	width: 100%;
+	padding: 20px 0 42px; 
+	background: #f4f4f4;
+}
+.contact h1{
+	font-size: 36px;
+	color: #2a2a2a;
+	margin-bottom: 40px;
+}
+.contact .row .con_d{
+	width: 446px; height: 100px;
+	padding: 11px 0 20px 20px;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	background: #fff;
+	margin: 0 auto 20px;
+}
+.contact .row .con_d img{
+	margin-right: 10px;
+}
+/*联系方式结束*/
+footer{
+	width: 100%;
+	background: #3d3d3d;
+	padding: 30px 0;
+}
+footer .foot-icon{
+	width: 180px;
+	position: relative;
+}
+footer .foot-icon .wei{
+	position: absolute;
+	top: -155px; left: 30px;
+	display: none;
+}
+footer .foot-icon a{
+	margin-left: 18px;
+}
+footer .foot-icon a:hover{
+	text-decoration: none;
+}
+footer p{
+	font-size: 11px;
+	color: #a1a3ab;
+}
+footer p>a{
+	font-size: 14px;
+	color: #a1a3ab;
+	margin: 0 10px;
+}

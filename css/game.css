@@ -1,0 +1,120 @@
+/*导航开始*/
+.head-nav{
+	width: 100%;
+	background: #222;
+	position: fixed;
+	top:0;
+	z-index: 9999;
+}
+.head-nav .navbar{
+	margin-bottom:0;
+}
+.head-nav .navbar-default{
+	background-color: #222;
+    border-color: #222;
+}
+.head-nav .navbar-brand{
+	padding:7px 0;
+}
+.head-nav .navbar-nav li a{
+	color:#9d9d9d;
+}
+.head-nav .navbar-nav li a:hover{
+	color:#fff;
+	background:#080808;
+}
+/*导航结束*/
+/*banner开始*/
+header{
+	margin-top:50px;
+}
+/*banner结束*/
+/*猎刃2开始*/
+.main_t{
+	padding-bottom: 15px;
+}
+.main_t_r h1{
+	font-size: 30px;
+	color: #2a2a2a;
+	text-align: right;
+}
+.main_t_r p{
+	font-size: 12px;
+	color: #898989;
+	text-align: right;
+	line-height: 30px;
+}
+.main_t_r>.row>div{
+	margin: 15px 0;
+	text-align: center;
+}
+/*猎刃2结束*/
+/*上吧主公开始*/
+.main_c{
+	padding-bottom: 67px;
+}
+.main_c_l h1{
+	font-size: 30px;
+	color: #2a2a2a;
+}
+.main_c_l p{
+	font-size: 12px;
+	color: #898989;
+	line-height: 30px;
+}
+.main_c_l>.row>div{
+	margin: 15px 0;
+	text-align: center;
+}
+/*上吧主公结束*/
+/*更多案例开始*/
+.main_b{
+	padding-bottom: 50px;
+}
+.main_b h1{
+	font-size: 36px;
+	color: #010101;
+	margin-bottom: 35px;
+}
+.main_b .row{
+	text-align: center;
+}
+.main_b .row>div{
+	margin-bottom: 45px;
+}
+.main_b .row>div>a>img{
+	margin-bottom: 12px;
+}
+.main_b .row>div>a{
+	color: #2a2a2a;
+}
+/*更多案例结束*/
+footer{
+	width: 100%;
+	background: #3d3d3d;
+	padding: 30px 0;
+}
+footer .foot-icon{
+	width: 180px;
+	position: relative;
+}
+footer .foot-icon .wei{
+	position: absolute;
+	top: -155px; left: 30px;
+	display: none;
+}
+footer .foot-icon a{
+	margin-left: 18px;
+}
+footer .foot-icon a:hover{
+	text-decoration: none;
+}
+footer p{
+	font-size: 11px;
+	color: #a1a3ab;
+}
+footer p>a{
+	font-size: 14px;
+	color: #a1a3ab;
+	margin: 0 10px;
+}
